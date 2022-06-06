@@ -1,0 +1,101 @@
+@font-face { font-family: DelightCrush; src: url('Delight Crush.ttf'); } 
+@font-face { font-family: DelightCrush; font-weight: medium; src: url('Delight Crush.ttf');}
+@font-face { font-family: DianaCrush; src: url('Diana Crush.ttf'); } 
+@font-face { font-family: DianaCrush; font-weight: medium; src: url('Diana Crush.ttf');}
+h1 {
+    font-family: DelightCrush, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: deeppink;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.bunny {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    border-radius: 50px;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 70px;
+    font-family: DianaCrush, sans-serif;
+    font-size: 50px;
+    color: deeppink;
+}
+
+.heart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+.heart:before,
+.heart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #fc2e5a;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+.bio {
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-right: 50px;
+    /* font-family: DianaCrush, sans-serif; */
+    font-size: 25px;
+    color: white;
+    line-height: 150%;
+}
+
+.bunny-slide {
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+    padding-top: 0px;
+}
+
+button {
+    background-color: violet;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+}
